@@ -16,7 +16,7 @@ var update = function update() {
   	"async": true,
  		"crossDomain": true,
  		'jsonp': "callback",
- 		"url": "http://127.0.0.1:8080/update",
+ 		"url": "http://localhost:3000",
 		"method": "GET"
 	}
 
@@ -47,4 +47,4 @@ function updateSend() {
 	container.innerHTML += '<div class="send"><p>' + recentSend + '</p></div>';
 }
 
-setInterval(update, 5000);
+setInterval(update, 8000);
