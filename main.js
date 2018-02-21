@@ -47,4 +47,4 @@ function updateSend() {
 	container.innerHTML += '<div class="send"><p>' + recentSend + '</p></div>';
 }
 
-setInterval(update, 8000);
+setInterval(update, 3000);
